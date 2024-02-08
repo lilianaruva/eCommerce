@@ -8,6 +8,9 @@ export const useProductsStore = create((set) => ({
   sortProductsByName: () => set((state) => ({
     productList: [...state.productList.sort((a, b) => a.label.localeCompare(b.label))]
   })),
+  filterProductsByName: (productId) => set((state) => ({
+    productList: [...state.productList.filter(product => product.id === productId)]
+  })),
   resetProductList: () => set((state) => ({
     productList: state.auxProductList.slice()
   }))

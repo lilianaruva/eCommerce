@@ -7,8 +7,7 @@ import { Autocomplete, TextField } from '@mui/material';
 
 export default function ProductsDisplay() {
   const [order, setOrder] = useState(false)
-  const [inputValue, setInputValue] = useState()
-  const {productList, auxProductList, sortProductsByName, resetProductList} = useProductsStore()
+  const {productList, auxProductList, sortProductsByName, filterProductsByName, resetProductList} = useProductsStore()
 
   useEffect(() => {
     if(order){
@@ -24,10 +23,12 @@ export default function ProductsDisplay() {
     <div className='flex flex-col gap-4 my-10 mx-10 sm:mx-40'>
       <div className='flex justify-between w-full gap-2'>
       <Autocomplete
-        value={inputValue}
-        inputValue={inputValue}
-        onInputChange={(event, newInputValue) => {
-          setInputValue(newInputValue);
+        onChange={(event, newInputValue) => {
+          if(newInputValue === null){
+            resetProductList()
+          }else{
+            filterProductsByName(newInputValue.id)
+          }
         }}
         options={auxProductList}
         sx={{ width: 300 }}
