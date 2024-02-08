@@ -4,139 +4,139 @@
         "label": "Wireless Bluetooth Earbuds",
         "price": 49.99,
         "description": "Experience true wireless freedom with these Bluetooth earbuds. Enjoy crystal-clear sound and ergonomic design for all-day comfort.",
-        "image": "https://example.com/earbuds.jpg"
+        "image": "https://www.designbolts.com/wp-content/uploads/2020/02/True-Wireless-Earbuds-with-Magic-HiFi-Sound-Zamkol-Waterproof-5.0-Bluetooth.jpg"
     },
     {
         "id": "2",
         "label": "Smartphone Holder for Car",
         "price": 14.99,
         "description": "Keep your smartphone secure and visible while driving with this universal car phone holder. Easily adjustable and fits most smartphones.",
-        "image": "https://example.com/phone-holder.jpg"
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/iottie_hlcrio102_easy_one_touch_universal_917804.jpg"
     },
     {
         "id": "3",
         "label": "Stainless Steel Water Bottle",
         "price": 19.99,
         "description": "Stay hydrated on the go with this durable stainless steel water bottle. Features a leak-proof design and keeps your drinks cold for hours.",
-        "image": "https://example.com/water-bottle.jpg"
+        "image": "https://m.media-amazon.com/images/I/719UK+f1SWL._AC_UL960_QL65_.jpg"
     },
     {
         "id": "4",
         "label": "Portable External Hard Drive",
         "price": 79.99,
         "description": "Expand your storage capacity with this portable external hard drive. Store all your important files securely and access them from anywhere.",
-        "image": "https://example.com/external-hard-drive.jpg"
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/seagate_stdr4000100_backup_plus_4tb_portable_1181456.jpg"
     },
     {
         "id": "5",
         "label": "Wireless Charging Pad",
         "price": 29.99,
         "description": "Say goodbye to tangled wires with this sleek wireless charging pad. Compatible with Qi-enabled devices for fast and convenient charging.",
-        "image": "https://example.com/charging-pad.jpg"
+        "image": "https://tse3.mm.bing.net/th?id=OIP.uNZ9ie1Ob9xraf1ZRPrrpAHaHa&pid=Api&P=0&h=180"
     },
     {
         "id": "6",
         "label": "Fitness Tracker Watch",
         "price": 59.99,
         "description": "Track your fitness goals with this stylish and functional fitness tracker watch. Monitor your heart rate, steps, and sleep quality with ease.",
-        "image": "https://example.com/fitness-tracker.jpg"
+        "image": "https://i5.walmartimages.com/asr/d18a4cbd-654a-4080-afc4-3aadf1b1f747.803c49682264ac4dab5d6758f551647d.jpeg"
     },
     {
         "id": "7",
         "label": "Professional Chef's Knife",
         "price": 39.99,
         "description": "Upgrade your kitchen arsenal with this high-quality professional chef's knife. Razor-sharp blade and ergonomic handle for precision and comfort.",
-        "image": "https://example.com/chefs-knife.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71NOXfg-A8L._AC_SL1500_.jpg"
     },
     {
         "id": "8",
         "label": "Bluetooth Speaker",
         "price": 69.99,
         "description": "Enjoy your favorite music anywhere with this powerful Bluetooth speaker. Waterproof and portable design for outdoor adventures.",
-        "image": "https://example.com/bluetooth-speaker.jpg"
+        "image": "https://www.bhphotovideo.com/images/images1000x1000/jbl_jblboomboxblkam_boombox_portable_bluetooth_speaker_1359585.jpg"
     },
     {
         "id": "9",
         "label": "Portable Power Bank",
         "price": 24.99,
         "description": "Never run out of battery again with this portable power bank. Compact and lightweight for easy carrying wherever you go.",
-        "image": "https://example.com/power-bank.jpg"
+        "image": "https://tse1.mm.bing.net/th?id=OIP.eRtDJAaYoxDaNFEOvGkANwHaHa&pid=Api&P=0&h=180"
     },
     {
         "id": "10",
         "label": "Digital Alarm Clock",
         "price": 9.99,
         "description": "Wake up refreshed with this easy-to-use digital alarm clock. Features a large LED display and customizable alarm settings.",
-        "image": "https://example.com/alarm-clock.jpg"
+        "image": "https://i5.walmartimages.com/asr/d81e1e81-6fde-450e-a333-71120bf6f79d_1.65e9bd3794b51a9030835bffec607e2b.jpeg"
     },
     {
         "id": "11",
         "label": "Insulated Lunch Bag",
         "price": 17.99,
         "description": "Keep your meals fresh and tasty with this insulated lunch bag. Perfect for work, school, or picnics in the park.",
-        "image": "https://example.com/lunch-bag.jpg"
+        "image": "https://i5.walmartimages.com/asr/f9a075af-129b-4787-8cb3-fd3f1dbef5a7_1.3f8bf83f9cec37b6273c93bd9d09dcc0.jpeg"
     },
     {
         "id": "12",
         "label": "Wireless Gaming Mouse",
         "price": 34.99,
         "description": "Take your gaming to the next level with this wireless gaming mouse. Precision tracking and customizable buttons for ultimate performance.",
-        "image": "https://example.com/gaming-mouse.jpg"
+        "image": "https://i5.walmartimages.com/asr/4ffb1bf9-f800-41c8-ab29-4721de7f0786.7259b9d6e36950cc9a9eac3f5f958888.jpeg"
     },
     {
         "id": "13",
         "label": "Travel Neck Pillow",
         "price": 12.99,
         "description": "Stay comfortable on long journeys with this plush travel neck pillow. Provides support and relaxation wherever you go.",
-        "image": "https://example.com/neck-pillow.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81g3pyGvYkL._AC_SL1500_.jpg"
     },
     {
         "id": "14",
         "label": "Digital SLR Camera",
         "price": 599.99,
         "description": "Capture stunning photos and videos with this advanced digital SLR camera. Features high-resolution imaging and intuitive controls.",
-        "image": "https://example.com/camera.jpg"
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/canon_1263c005_eos_80d_dslr_camera_1225876.jpg"
     },
     {
         "id": "15",
         "label": "Wireless Keyboard and Mouse Combo",
         "price": 49.99,
         "description": "Enhance your productivity with this wireless keyboard and mouse combo. Reliable connectivity and ergonomic design for long hours of use.",
-        "image": "https://example.com/keyboard-mouse.jpg"
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/Logitech_920_003709_MK520_Keyboard_Mouse_895527.jpg"
     },
     {
         "id": "16",
         "label": "Electric Toothbrush",
         "price": 39.99,
         "description": "Achieve a brighter smile with this rechargeable electric toothbrush. Features multiple brushing modes for personalized dental care.",
-        "image": "https://example.com/toothbrush.jpg"
+        "image": "https://www.topvaluereviews.net/wp-content/uploads/2017/04/71J73BO-tnL._SL1500_.jpg"
     },
     {
         "id": "17",
         "label": "Wireless Headphones",
         "price": 79.99,
         "description": "Immerse yourself in superior sound quality with these wireless headphones. Comfortable over-ear design and long battery life for extended use.",
-        "image": "https://example.com/headphones.jpg"
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/beats_by_dr_dre_mhdm2am_a_studio_wireless_over_ear_headphones_gold_1098356.jpg"
     },
     {
         "id": "18",
         "label": "Smart Wi-Fi Thermostat",
         "price": 129.99,
         "description": "Control your home's temperature from anywhere with this smart Wi-Fi thermostat. Save energy and money with personalized heating and cooling schedules.",
-        "image": "https://example.com/thermostat.jpg"
+        "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6299/6299406_sd.jpg"
     },
     {
         "id": "19",
         "label": "Travel Backpack",
         "price": 49.99,
         "description": "Pack your essentials for your next adventure with this spacious travel backpack. Durable construction and multiple compartments for organization.",
-        "image": "https://example.com/backpack.jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/715fjbcihnL._SL1050_.jpg"
     },
     {
         "id": "20",
         "label": "Coffee Maker with Grinder",
         "price": 89.99,
         "description": "Start your day right with freshly brewed coffee from this coffee maker with built-in grinder. Programmable settings for the perfect cup every time.",
-        "image": "https://example.com/coffee-maker.jpg"
+        "image": "https://i5.walmartimages.com/asr/579f2131-645b-4312-8162-bdaf1518f7c6_1.76f448bd54798591fc9e3c6b6dcbe6c8.jpeg"
     }
 ]
