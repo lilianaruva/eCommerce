@@ -1,140 +1,140 @@
 [
     {
         "id": "1",
-        "name": "Wireless Bluetooth Earbuds",
+        "label": "Wireless Bluetooth Earbuds",
         "price": 49.99,
         "description": "Experience true wireless freedom with these Bluetooth earbuds. Enjoy crystal-clear sound and ergonomic design for all-day comfort.",
         "image": "https://example.com/earbuds.jpg"
     },
     {
         "id": "2",
-        "name": "Smartphone Holder for Car",
+        "label": "Smartphone Holder for Car",
         "price": 14.99,
         "description": "Keep your smartphone secure and visible while driving with this universal car phone holder. Easily adjustable and fits most smartphones.",
         "image": "https://example.com/phone-holder.jpg"
     },
     {
         "id": "3",
-        "name": "Stainless Steel Water Bottle",
+        "label": "Stainless Steel Water Bottle",
         "price": 19.99,
         "description": "Stay hydrated on the go with this durable stainless steel water bottle. Features a leak-proof design and keeps your drinks cold for hours.",
         "image": "https://example.com/water-bottle.jpg"
     },
     {
         "id": "4",
-        "name": "Portable External Hard Drive",
+        "label": "Portable External Hard Drive",
         "price": 79.99,
         "description": "Expand your storage capacity with this portable external hard drive. Store all your important files securely and access them from anywhere.",
         "image": "https://example.com/external-hard-drive.jpg"
     },
     {
         "id": "5",
-        "name": "Wireless Charging Pad",
+        "label": "Wireless Charging Pad",
         "price": 29.99,
         "description": "Say goodbye to tangled wires with this sleek wireless charging pad. Compatible with Qi-enabled devices for fast and convenient charging.",
         "image": "https://example.com/charging-pad.jpg"
     },
     {
         "id": "6",
-        "name": "Fitness Tracker Watch",
+        "label": "Fitness Tracker Watch",
         "price": 59.99,
         "description": "Track your fitness goals with this stylish and functional fitness tracker watch. Monitor your heart rate, steps, and sleep quality with ease.",
         "image": "https://example.com/fitness-tracker.jpg"
     },
     {
         "id": "7",
-        "name": "Professional Chef's Knife",
+        "label": "Professional Chef's Knife",
         "price": 39.99,
         "description": "Upgrade your kitchen arsenal with this high-quality professional chef's knife. Razor-sharp blade and ergonomic handle for precision and comfort.",
         "image": "https://example.com/chefs-knife.jpg"
     },
     {
         "id": "8",
-        "name": "Bluetooth Speaker",
+        "label": "Bluetooth Speaker",
         "price": 69.99,
         "description": "Enjoy your favorite music anywhere with this powerful Bluetooth speaker. Waterproof and portable design for outdoor adventures.",
         "image": "https://example.com/bluetooth-speaker.jpg"
     },
     {
         "id": "9",
-        "name": "Portable Power Bank",
+        "label": "Portable Power Bank",
         "price": 24.99,
         "description": "Never run out of battery again with this portable power bank. Compact and lightweight for easy carrying wherever you go.",
         "image": "https://example.com/power-bank.jpg"
     },
     {
         "id": "10",
-        "name": "Digital Alarm Clock",
+        "label": "Digital Alarm Clock",
         "price": 9.99,
         "description": "Wake up refreshed with this easy-to-use digital alarm clock. Features a large LED display and customizable alarm settings.",
         "image": "https://example.com/alarm-clock.jpg"
     },
     {
         "id": "11",
-        "name": "Insulated Lunch Bag",
+        "label": "Insulated Lunch Bag",
         "price": 17.99,
         "description": "Keep your meals fresh and tasty with this insulated lunch bag. Perfect for work, school, or picnics in the park.",
         "image": "https://example.com/lunch-bag.jpg"
     },
     {
         "id": "12",
-        "name": "Wireless Gaming Mouse",
+        "label": "Wireless Gaming Mouse",
         "price": 34.99,
         "description": "Take your gaming to the next level with this wireless gaming mouse. Precision tracking and customizable buttons for ultimate performance.",
         "image": "https://example.com/gaming-mouse.jpg"
     },
     {
         "id": "13",
-        "name": "Travel Neck Pillow",
+        "label": "Travel Neck Pillow",
         "price": 12.99,
         "description": "Stay comfortable on long journeys with this plush travel neck pillow. Provides support and relaxation wherever you go.",
         "image": "https://example.com/neck-pillow.jpg"
     },
     {
         "id": "14",
-        "name": "Digital SLR Camera",
+        "label": "Digital SLR Camera",
         "price": 599.99,
         "description": "Capture stunning photos and videos with this advanced digital SLR camera. Features high-resolution imaging and intuitive controls.",
         "image": "https://example.com/camera.jpg"
     },
     {
         "id": "15",
-        "name": "Wireless Keyboard and Mouse Combo",
+        "label": "Wireless Keyboard and Mouse Combo",
         "price": 49.99,
         "description": "Enhance your productivity with this wireless keyboard and mouse combo. Reliable connectivity and ergonomic design for long hours of use.",
         "image": "https://example.com/keyboard-mouse.jpg"
     },
     {
         "id": "16",
-        "name": "Electric Toothbrush",
+        "label": "Electric Toothbrush",
         "price": 39.99,
         "description": "Achieve a brighter smile with this rechargeable electric toothbrush. Features multiple brushing modes for personalized dental care.",
         "image": "https://example.com/toothbrush.jpg"
     },
     {
         "id": "17",
-        "name": "Wireless Headphones",
+        "label": "Wireless Headphones",
         "price": 79.99,
         "description": "Immerse yourself in superior sound quality with these wireless headphones. Comfortable over-ear design and long battery life for extended use.",
         "image": "https://example.com/headphones.jpg"
     },
     {
         "id": "18",
-        "name": "Smart Wi-Fi Thermostat",
+        "label": "Smart Wi-Fi Thermostat",
         "price": 129.99,
         "description": "Control your home's temperature from anywhere with this smart Wi-Fi thermostat. Save energy and money with personalized heating and cooling schedules.",
         "image": "https://example.com/thermostat.jpg"
     },
     {
         "id": "19",
-        "name": "Travel Backpack",
+        "label": "Travel Backpack",
         "price": 49.99,
         "description": "Pack your essentials for your next adventure with this spacious travel backpack. Durable construction and multiple compartments for organization.",
         "image": "https://example.com/backpack.jpg"
     },
     {
         "id": "20",
-        "name": "Coffee Maker with Grinder",
+        "label": "Coffee Maker with Grinder",
         "price": 89.99,
         "description": "Start your day right with freshly brewed coffee from this coffee maker with built-in grinder. Programmable settings for the perfect cup every time.",
         "image": "https://example.com/coffee-maker.jpg"
