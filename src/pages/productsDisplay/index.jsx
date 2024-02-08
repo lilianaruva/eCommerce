@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import CardProduct from '../../components/cardProduct'
 import { IoFilter } from "react-icons/io5";
+import Navbar from '../../components/navbar';
 
 export default function ProductsDisplay() {
   const [order, setOrder] = useState(false)
 
   return (
+    <>
+    <Navbar />
     <div className='flex flex-col gap-4 my-10 mx-10 sm:mx-40'>
       <div className='flex justify-between w-full'>
         <button>d</button>
@@ -29,5 +32,7 @@ export default function ProductsDisplay() {
 
       </div>
     </div>
+    </>
+    
   )
 }
