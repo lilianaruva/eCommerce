@@ -2,10 +2,20 @@ import React from 'react'
 import CardShopping from '../../components/cardShopping'
 import Navbar from '../../components/navbar'
 import { useShoppingStore } from '../../store/shoppingStore';
+import { toast } from 'react-toastify';
 export default function ShoppingCart() {
-  const { shopList } = useShoppingStore();
+  const { shopList, removeAllProductsInToCart } = useShoppingStore();
   const totalPrice = shopList.reduce((total, product) => total + product.price, 0);
 
+  const handleBuy = () => {
+    if(shopList.length > 0){
+    removeAllProductsInToCart()
+    toast.success("Thanks for buy in Ecommerce Page 🔥💳")
+    }else{
+    toast.error("Your cart is empty! Go to Products Page 🔥")
+
+    }
+  }
 
   return (
     <>
@@ -22,7 +32,7 @@ export default function ShoppingCart() {
       <div className='flex flex-col gap-4'>
         <p className='text-3xl font-bold'>Estimated Total</p>
         <p className='text-xl'>${totalPrice}</p>
-        <button className='w-full max-w-96 bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Checkout</button>
+        <button onClick={handleBuy} className='w-full max-w-96 bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Checkout</button>
       </div>
     </div>
     </>
