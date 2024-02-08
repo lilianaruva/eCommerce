@@ -12,6 +12,9 @@ import ProductDetails from './pages/productDetails';
 import ProductsDisplay from './pages/productsDisplay';
 import ProductForm from './pages/productForm';
 import ShoppingCart from './pages/shoppingCart';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -40,6 +43,7 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
+    <ToastContainer/>
     <RouterProvider router={router} />
   </React.StrictMode>
 );

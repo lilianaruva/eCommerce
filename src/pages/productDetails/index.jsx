@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/navbar'
 import { useNavigate, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/productsStore';
+import { useShoppingStore } from '../../store/shoppingStore';
+import { toast } from 'react-toastify';
 
 export default function ProductDetails() {
   let { productId } = useParams();
   const { productList } = useProductsStore();
+  const { addProductInToCart } = useShoppingStore();
   const navigate = useNavigate();
 
   const [product, setProduct] = useState(null);
@@ -29,6 +32,13 @@ export default function ProductDetails() {
     );
   }
 
+  const handleAddToCart = () =>{
+    addProductInToCart(product)
+    toast.success("Product Added !", {
+      position: "top-center"
+    });
+  }
+
   return (
     <>
     <Navbar />
@@ -42,7 +52,7 @@ export default function ProductDetails() {
         <p className='text-xl'>${product?.price}</p>
         <p>Description</p>
         <p>{product?.description}</p>
-        <button className='w-full max-w-96 bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Add to Cart</button>
+        <button onClick={handleAddToCart} className='w-full max-w-96 bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Add to Cart</button>
       </div>
     </div>
     </>
