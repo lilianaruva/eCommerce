@@ -7,17 +7,19 @@ import { toast } from 'react-toastify';
 
 export default function ProductForm() {
   const [productName, setProductName] = useState('');
+  const [productDescription, setProductDescription] = useState('');
   const [productPrice, setProductPrice] = useState('');
   const [productImage, setProductImage] = useState(null);
   const { addProduct } = useProductsStore();
 
   const handleSaveProduct = () => {
-    if (productName && productPrice && productImage) {
+    if (productName && productPrice && productImage && productDescription) {
       const newProduct = {
         id: Math.random().toString(36),
         label: productName,
         price: parseFloat(productPrice),
         image: URL.createObjectURL(productImage),
+        description: productDescription
       };
       addProduct(newProduct);
       setProductName('');
@@ -51,6 +53,13 @@ export default function ProductForm() {
             label="Amount"
           />
         </FormControl>
+        <TextField
+          type='text'
+          value={productName}
+          onChange={(e) => setProductDescription(e.target.value)}
+          id="description"
+          label="Description"
+        />
         <input accept='image/png, image/jpeg' type="file" onChange={(e) => setProductImage(e.target.files[0])} />
         <button onClick={handleSaveProduct} className='w-full bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Save Product</button>
       </div>
