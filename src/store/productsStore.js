@@ -9,7 +9,7 @@ export const useProductsStore = create((set) => ({
     productList: [...state.productList.sort((a, b) => a.label.localeCompare(b.label))]
   })),
   resetProductList: () => set((state) => ({
-    productList: state.auxProductList
+    productList: state.auxProductList.slice()
   }))
 }))
 
