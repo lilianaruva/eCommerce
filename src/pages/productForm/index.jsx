@@ -22,7 +22,6 @@ export default function ProductForm() {
       addProduct(newProduct);
       setProductName('');
       setProductPrice('');
-      setProductImage(null);
       toast.success('Product Added')
     } else {
       toast.error('Please fill in all fields.');
@@ -52,7 +51,7 @@ export default function ProductForm() {
             label="Amount"
           />
         </FormControl>
-        <input type="file" onChange={(e) => setProductImage(e.target.files[0])} />
+        <input accept='image/png, image/jpeg' type="file" onChange={(e) => setProductImage(e.target.files[0])} />
         <button onClick={handleSaveProduct} className='w-full bg-indigo-500 hover:bg-indigo-400 ease-in duration-200 rounded-md shadow-lg shadow-indigo-500/50 text-white p-3'>Save Product</button>
       </div>
     </>
