@@ -55,7 +55,7 @@ export default function ProductForm() {
         </FormControl>
         <TextField
           type='text'
-          value={productName}
+          value={productDescription}
           onChange={(e) => setProductDescription(e.target.value)}
           id="description"
           label="Description"
