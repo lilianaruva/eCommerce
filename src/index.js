@@ -8,6 +8,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './pages/error-page';
+import ProductDetails from './pages/productDetails';
+import ProductsDisplay from './pages/productsDisplay';
+import ProductForm from './pages/productForm';
+import ShoppingCart from './pages/shoppingCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -15,6 +19,22 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "products",
+    element: <ProductsDisplay />,
+  },
+  {
+    path: "addProduct",
+    element: <ProductForm />,
+  },
+  {
+    path: "shoppingCart",
+    element: <ShoppingCart />,
+  },
+  {
+    path: "products/:productId",
+    element: <ProductDetails />,
   },
 ]);
 
@@ -24,7 +44,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
