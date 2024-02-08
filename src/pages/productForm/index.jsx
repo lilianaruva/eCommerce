@@ -31,7 +31,7 @@ export default function ProductForm() {
   return (
     <>
       <Navbar />
-      <div className='gap-4 sm:gap-8 my-10 mx-10 sm:mx-40 w-1/3 grid grid-cols-1'>
+      <div className='gap-4 sm:gap-8 py-10 px-10 sm:mx-40 w-full sm:w-1/3 grid grid-cols-1'>
         <p className='text-2xl font-semibold'>Add New Product 🛒</p>
         <TextField
           type='text'
@@ -40,7 +40,7 @@ export default function ProductForm() {
           id="label"
           label="Product Name"
         />
-        <FormControl fullWidth sx={{ m: 1 }}>
+        <FormControl fullWidth>
           <InputLabel htmlFor="price">Amount</InputLabel>
           <OutlinedInput
             type='number'
