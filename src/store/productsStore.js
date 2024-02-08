@@ -6,7 +6,7 @@ export const useProductsStore = create((set) => ({
   auxProductList: dummy,
   addProduct: (product) => set((state) => ({ productList: [...state.productList, product] })),
   sortProductsByName: () => set((state) => ({
-    productList: [...state.productList.sort((a, b) => a.name.localeCompare(b.name))]
+    productList: [...state.productList.sort((a, b) => a.label.localeCompare(b.label))]
   })),
   resetProductList: () => set((state) => ({
     productList: state.auxProductList
